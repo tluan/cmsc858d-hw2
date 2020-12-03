@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kmirai/CLionProjects/zzz/main.cpp
+iostream
+-
+sdsl/suffix_arrays.hpp
+-
+fstream
+-
+
